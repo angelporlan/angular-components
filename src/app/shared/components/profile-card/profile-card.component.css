@@ -1,0 +1,65 @@
+article {
+    border: 1px solid red;
+}
+
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}
+
+.full-name {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.username {
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.description {
+    text-align: center;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.social-media-svg {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 100px;
+    background-color: #ee5c5c;
+    color: white;
+    cursor: pointer;
+}
+
+.message {
+    background-color: transparent;
+    border: 1px solid #7d7d7d;
+    color: #7d7d7d;
+}
